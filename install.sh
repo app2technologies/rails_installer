@@ -41,5 +41,5 @@ echo "#</Directory>" >> /etc/apache2/apache2.conf
 echo "#</VirtualHost>" >> /etc/apache2/apache2.conf
 echo "#" >> /etc/apache2/apache2.conf
 /etc/init.d/apache2 restart
-
+apt-get install postfix
 
